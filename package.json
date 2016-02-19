@@ -1,6 +1,6 @@
 {
   "name": "leaflet-layerscontrol-buttons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Leaflet layers control using a set of buttons.",
   "main": "leaflet-layerscontrol-buttons.js",
   "style": "leafletl-layerscontrol-buttons.css",
