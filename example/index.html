@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Leaflet layers control buttons Demo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v1.0.0-beta.2/leaflet.css" />
+    <style>
+        html {
+            height: 100%;
+            vertical-align: baseline;
+        }
+        body, #map { height: 100%; margin: 0; padding: 0;}
+
+        .info {
+            margin-left: 180px !important;
+            padding: 6px 8px;
+            font: 14px/16px Arial, Helvetica, sans-serif;
+            background: white;
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+        }
+        .info h4 {
+            margin: 0 0 5px;
+            color: #777;
+        }
+
+        .leaflet-control-layers-buttons {
+            background-color: rgba(255, 255, 255, 0.9);
+
+            border-radius: 2px;
+            border: 1px solid rgba(50, 50, 50, 0.5);
+
+        }
+        .leaflet-control-layers-buttons div {
+            display: inline-block;
+            padding: 3px 5px;
+            cursor: pointer;
+        }
+        .leaflet-control-layers-buttons div.active {
+            font-weight: bold;
+        }
+        .leaflet-control-layers-buttons div:hover{
+            background-color: rgba(245, 245, 245, 0.9);
+        }
+        .leaflet-control-layers-buttons div + div {
+            border-left: 1px solid rgba(220, 220, 220, 0.9);
+        }
+
+
+    </style>
+    <!--Fork Me on Github ribbon, we're using the awsome version from simonwhitaker available at https://github.com/simonwhitaker/github-fork-ribbon-css  -->
+    <link rel="stylesheet" href="gh-fork-ribbon.css" />
+    <!--[if IE]>
+        <link rel="stylesheet" href="gh-fork-ribbon.ie.css" />
+    <![endif]-->
+
+    <!-- <link rel="stylesheet" href="control.layers.minimap.css" /> -->
+</head>
+<body>
+    <div class="github-fork-ribbon-wrapper left">
+        <div class="github-fork-ribbon">
+            <a href="https://github.com/jieter/Leaflet.layerscontrol-buttons">Fork me on GitHub</a>
+        </div>
+    </div>
+
+    <div id="map" class="map"></div>
+
+    <script src="http://cdn.leafletjs.com/leaflet/v1.0.0-beta.2/leaflet-src.js"></script>
+    <script src="../leaflet-layerscontrol-buttons.js"></script>
+
+    <script src="example.js"></script>
+</body>
+</html>
