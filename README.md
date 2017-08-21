@@ -8,7 +8,7 @@ Simple and compact leaflet layers control composed of a button for each layer, s
 
 After including leaflet, include these two `leaflet-layerscontrol-buttons` files.
 ```html
-<link rel="stylesheet" href="control.layers.buttons.css" />
+<link rel="stylesheet" href="leaflet-layerscontrol-buttons.css" />
 <script src="leaflet-layerscontrol-buttons.js"></script>
 ```
 
