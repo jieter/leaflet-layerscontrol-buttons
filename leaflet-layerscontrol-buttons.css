@@ -1,3 +1,6 @@
+.leaflet-control-layers-expanded {
+    padding: 0 !important
+}
 .leaflet-control-layers-buttons {
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 2px;

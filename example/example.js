@@ -1,8 +1,6 @@
 var map = L.map('map', {
     zoomControl: false,
-    center: [48, -3],
-    zoom: 5
-});
+}).setView([48, -3], 5);
 
 var layers = {
     'OSM': L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {

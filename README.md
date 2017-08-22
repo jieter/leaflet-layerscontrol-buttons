@@ -1,8 +1,11 @@
 # Leaflet layerscontrol buttons
 
-Simple and compact leaflet layers control composed of a button for each layer, similar to the Google maps API used to use.
+Simple and compact Leaflet layers control composed of a button for each layer, similar to the Google maps API used to use.
 
 ![screenshot](example/screenshot.png)
+
+ - Tested with Leaflet 1.2.0
+ - Available on npm: [leaflet-layerscontrol-buttons](https://www.npmjs.com/package/leaflet-layerscontrol-buttons)
 
 ## Usage
 
